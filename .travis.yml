@@ -1,0 +1,61 @@
+language: java
+sudo: false
+addons:
+    srcclr: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+script: mvn clean verify -Dmaven.test.skip=true
+env:
+    - SRCCLR_CUSTOM_MAVEN_COMMAND="clean package -Dmaven.test.skip=true"
+
